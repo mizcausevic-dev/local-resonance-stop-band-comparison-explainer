@@ -1,0 +1,161 @@
+{
+  "id": "p123",
+  "title": "Local-Resonance Stop-Band Comparison",
+  "category": "Metamaterials",
+  "silhouette": "lattice",
+  "slowMotion": false,
+  "falseColor": false,
+  "nodes": [
+    {
+      "id": "n1",
+      "glyph": "shaft",
+      "label": "Host beam",
+      "role": "path",
+      "x": 0.22,
+      "y": 0.24
+    },
+    {
+      "id": "n2",
+      "glyph": "plate",
+      "label": "Resonators",
+      "role": "structure",
+      "x": 0.5,
+      "y": 0.24
+    },
+    {
+      "id": "n3",
+      "glyph": "plate",
+      "label": "Detuned",
+      "role": "structure",
+      "x": 0.78,
+      "y": 0.24
+    },
+    {
+      "id": "n4",
+      "glyph": "plate",
+      "label": "Tuned resonator examples",
+      "role": "structure",
+      "x": 0.22,
+      "y": 0.52
+    },
+    {
+      "id": "n5",
+      "glyph": "plate",
+      "label": "Changing relative motion",
+      "role": "structure",
+      "x": 0.5,
+      "y": 0.52
+    },
+    {
+      "id": "n6",
+      "glyph": "spring",
+      "label": "Transmitted vibration envelopes",
+      "role": "path",
+      "x": 0.78,
+      "y": 0.52
+    },
+    {
+      "id": "n7",
+      "glyph": "plate",
+      "label": "Finite frequency range",
+      "role": "structure",
+      "x": 0.22,
+      "y": 0.8
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "role": "path",
+      "start": 0,
+      "end": 1019
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "role": "path",
+      "start": 150,
+      "end": 1019
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "role": "path",
+      "start": 150,
+      "end": 1019
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "role": "path",
+      "start": 300,
+      "end": 1019
+    },
+    {
+      "from": "n5",
+      "to": "n6",
+      "role": "path",
+      "start": 510,
+      "end": 1019
+    },
+    {
+      "from": "n6",
+      "to": "n7",
+      "role": "path",
+      "start": 750,
+      "end": 1019
+    }
+  ],
+  "emphasis": [
+    [
+      "n1",
+      "n2"
+    ],
+    [
+      "n3",
+      "n4"
+    ],
+    [
+      "n5"
+    ],
+    [
+      "n6"
+    ],
+    [
+      "n7"
+    ]
+  ],
+  "stages": [
+    {
+      "f0": 0,
+      "f1": 149,
+      "action": "Reveal host beam and resonators",
+      "detail": "Establish the full assembly, then make a measured three-quarter push toward the active region."
+    },
+    {
+      "f0": 150,
+      "f1": 299,
+      "action": "Compare detuned and tuned resonator examples",
+      "detail": "Use a sectional close-up and identify only the components required for this mechanism."
+    },
+    {
+      "f0": 300,
+      "f1": 509,
+      "action": "Show changing relative motion",
+      "detail": "Track the primary causal pathway, keeping inputs, outputs, and control overlays distinct."
+    },
+    {
+      "f0": 510,
+      "f1": 749,
+      "action": "Compare transmitted vibration envelopes",
+      "detail": "Follow the resulting response with readable labels and a separate qualitative inset if useful."
+    },
+    {
+      "f0": 750,
+      "f1": 1019,
+      "action": "Show finite frequency range",
+      "detail": "Pull back to a stable system overview; retain visible losses, limits, or uncertainty where relevant."
+    }
+  ]
+}
