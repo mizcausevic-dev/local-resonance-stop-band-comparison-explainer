@@ -11,56 +11,56 @@
       "glyph": "shaft",
       "label": "Host beam",
       "role": "path",
-      "x": 0.22,
-      "y": 0.24
+      "x": 0.14,
+      "y": 0.32
     },
     {
       "id": "n2",
       "glyph": "plate",
       "label": "Resonators",
       "role": "structure",
-      "x": 0.5,
-      "y": 0.24
+      "x": 0.38,
+      "y": 0.32
     },
     {
       "id": "n3",
       "glyph": "plate",
       "label": "Detuned",
       "role": "structure",
-      "x": 0.78,
-      "y": 0.24
+      "x": 0.62,
+      "y": 0.32
     },
     {
       "id": "n4",
       "glyph": "plate",
       "label": "Tuned resonator examples",
       "role": "structure",
-      "x": 0.22,
-      "y": 0.52
+      "x": 0.86,
+      "y": 0.32
     },
     {
       "id": "n5",
       "glyph": "plate",
       "label": "Changing relative motion",
       "role": "structure",
-      "x": 0.5,
-      "y": 0.52
+      "x": 0.14,
+      "y": 0.7
     },
     {
       "id": "n6",
       "glyph": "spring",
       "label": "Transmitted vibration envelopes",
       "role": "path",
-      "x": 0.78,
-      "y": 0.52
+      "x": 0.5,
+      "y": 0.7
     },
     {
       "id": "n7",
       "glyph": "plate",
       "label": "Finite frequency range",
       "role": "structure",
-      "x": 0.22,
-      "y": 0.8
+      "x": 0.86,
+      "y": 0.7
     }
   ],
   "edges": [
