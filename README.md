@@ -4,6 +4,8 @@
 
 Live plate: https://mizcausevic-dev.github.io/local-resonance-stop-band-comparison-explainer/
 
+Repository: https://github.com/mizcausevic-dev/local-resonance-stop-band-comparison-explainer
+
 ## What this is
 
 An interactive anatomy plate for Local-Resonance Stop-Band Comparison. Play, scrub, or jump the five stages. The same frame always draws the same picture.
